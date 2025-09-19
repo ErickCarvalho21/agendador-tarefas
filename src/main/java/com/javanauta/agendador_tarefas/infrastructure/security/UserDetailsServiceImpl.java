@@ -3,8 +3,6 @@ package com.javanauta.agendador_tarefas.infrastructure.security;
 
 import com.javanauta.agendador_tarefas.business.dto.UsuarioDTO;
 import com.javanauta.agendador_tarefas.infrastructure.security.client.UsuarioClient;
-import com.javanauta.usuario.infrastructure.entity.Usuario;
-import com.javanauta.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
